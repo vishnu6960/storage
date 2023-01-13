@@ -3,6 +3,9 @@ switch(a.getDay()){
     case 0 :
         console.log("sunday")
         break;
+    case 3 :
+        console.log("thursday")
+        break;
     case 4 :
         console.log("friday")
         break;
