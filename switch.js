@@ -1,4 +1,6 @@
 var a = new Date()
+
+// using switch in javascript
 switch(a.getDay()){
     case 0 :
         console.log("sunday")
