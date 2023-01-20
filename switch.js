@@ -1,6 +1,4 @@
 var a = new Date()
-
-// using switch in javascript
 switch(a.getDay()){
     case 0 :
         console.log("sunday")
@@ -26,3 +24,6 @@ switch(a.getDay()){
     default:
         console.log("not a day")
 }
+var arr = [2,4,5,5,6,7,33,3,4,2,1]
+var res = arr.sort((a,b)=>a-b)
+console.log(res)
